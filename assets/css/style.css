@@ -1,0 +1,41 @@
+.container {
+  border: 5px solid black;
+  
+  min-height: 40vh;
+
+  max-height: 90vh;
+
+}
+
+.item {
+  /* display: inline-block; */
+  /* width: 50px; */
+  padding: 10px 20px;
+  /* height: 50px; */
+  font-size: 2em;
+  text-align: center;
+  border: 5px solid red;
+  background-color: dodgerblue;
+}
+
+/* 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+  align-items: center;
+  align-content: space-between;
+} */
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap-reverse;
+
+  
+
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+
+  justify-content: space-around;
+}

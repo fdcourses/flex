@@ -1,0 +1,38 @@
+Как включить флексы
+
+display: flex;
+
+Категории свойств флексов
+
+    1. для родительских элементов
+
+        /* указание направления осей */
+        flex-direction: row (default) | column | row-reverse | column-reverse
+
+        /* 
+            выравнивает дочерние элементы вдоль главной оси 
+        */
+        justify-content: flex-start(default) | flex-end | center | space-between | space-around | space-evenly;
+        
+        /* 
+            выраниравние дочерних элементов по поперечной оси
+        */
+        align-items: 	flex-start | flex-end | center | baseline (редкоиспользуемое) | stretch (default)
+
+        /*
+            перенос детей при переполнении
+        */
+        flex-wrap: nowrap (default) | wrap | wrap-reverse;
+
+
+        /*
+            Выравнивает относительно поперечной оси контейнера
+        */
+        align-content: 	flex-start | flex-end | center | space-between | space-around | space-evenly;
+        
+        /* 
+            flex-flow - сокращение от flex-direction и flex-wrap
+        */
+        
+        
+    2. для дочерних элементов (>)
