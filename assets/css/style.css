@@ -20,16 +20,25 @@ max-height: 90vh; */
   border: 5px solid red;
   background-color: dodgerblue;
 
-  flex-grow: 1;
+  /* flex-basis: 200px;
+  flex-shrink: 2;
+  flex-grow: 2; */
 
+  flex: 1 1;
+}
+
+.slowest {
+  flex: 0.5 0.5;
+}
+
+.fastest {
+  flex: 2 2;
 }
 
 .flex-container {
   display: flex;
   flex-direction: row;
 
-  width: 1200px;
-  margin: 0 auto;
 
 }
 

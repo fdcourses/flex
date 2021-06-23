@@ -78,6 +78,11 @@ display: flex;
         
         1060 / 5 = 212        
         ============================================
-        flex-shrink
         
+        /*
+            коэффициент сжатия дочерних элементов
+        */
+        flex-shrink <number> ; default = 1;
+        
+        /* сокращение  от flex-grow flex-shrink flex-basis*/
         flex
