@@ -36,3 +36,22 @@ display: flex;
         
         
     2. для дочерних элементов (>)
+
+    
+        /* изменяет порядок отображения*/
+        order: <number> ; default = 0;
+        
+        /* 
+            align-items для конкретного элемента 
+            переопределяет align-items
+        */
+        align-self: flex-start | flex-end | center | baseline (редкоиспользуемое) | stretch (default);
+        
+        
+        flex-basis;
+        
+        flex-grow
+        
+        flex-shrink
+        
+        flex
