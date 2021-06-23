@@ -40,16 +40,24 @@ display: flex;
     
         /* изменяет порядок отображения*/
         order: <number> ; default = 0;
-        
+          ======================================================= 
         /* 
             align-items для конкретного элемента 
             переопределяет align-items
         */
+        
+     
         align-self: flex-start | flex-end | center | baseline (редкоиспользуемое) | stretch (default);
         
         
-        flex-basis;
+        ======================================================
+        content => width/height => min w/h max w/h
         
+        width => flex-basis => content
+        
+        /* flex-basis - потенциальный ОСНОВНОЙ размер элемента */
+        flex-basis: <size>;
+=============================================================
         flex-grow
         
         flex-shrink
