@@ -17,16 +17,19 @@ max-height: 90vh; */
 
   font-size: 2em;
   text-align: center;
-  /* border: 5px solid red; */
+  border: 5px solid red;
   background-color: dodgerblue;
-  
-  flex-basis: 100px;
+
+  flex-grow: 1;
 
 }
 
 .flex-container {
   display: flex;
   flex-direction: row;
+
+  width: 1200px;
+  margin: 0 auto;
 
 }
 
